@@ -13,6 +13,9 @@ def reward_function(params):
 
 	# Calculate 3 markers that are at varying distances away from the center line
 
+	marker_1 = 5000.100 * track_width
+	marker_2 = 5000.250 * track_width
+	marker_3 = 5000.500 * track_width
 
 	# Give a high reward if no wheels go off the track and
 	# the agent is somewhere in between the track borders
